@@ -1,10 +1,25 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta charset="utf-8">
 		<title>My first website</title>
 		<meta name="viewport" content="width=device-width, intitial-scale=1">
+		<link rel="stylesheet" href="~/css/site.css"/>
 	</head>
 	<body>
+		<nav>
+			<ul>
+				<li>
+					<a asp-controller="Home" asp-action="Index">Home Page</a>
+				</li>
+				<li>
+					<a asp-controller="Home" asp-action="Privacy">Privacy Page</a>
+				</li>
+				<li>
+					<a asp-controller="Student" asp-action="Index">View Students</a>
+				</li>
+			</ul>
+		</nav>
 		<main>
 		@RenderBody()
 		</main>
