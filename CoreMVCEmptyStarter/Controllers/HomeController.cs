@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CoreMVCEmptyStarter.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CoreMVCEmptyStarter.Controllers;
 public class HomeController : Controller

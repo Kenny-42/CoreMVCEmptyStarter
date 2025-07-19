@@ -8,17 +8,9 @@
 	</head>
 	<body>
 		<nav>
-			<ul>
-				<li>
-					<a asp-controller="Home" asp-action="Index">Home Page</a>
-				</li>
-				<li>
-					<a asp-controller="Home" asp-action="Privacy">Privacy Page</a>
-				</li>
-				<li>
-					<a asp-controller="Student" asp-action="Index">View Students</a>
-				</li>
-			</ul>
+			<a asp-controller="Home" asp-action="Index">Home Page</a>
+			<a asp-controller="Home" asp-action="Privacy">Privacy Page</a>
+			<a asp-controller="Student" asp-action="Index">View Students</a>
 		</nav>
 		<main>
 		@RenderBody()
